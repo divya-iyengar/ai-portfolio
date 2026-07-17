@@ -1,0 +1,84 @@
+## Environment 
+.env
+.env.*
+!.env.example
+
+# API Keys
+*.pem
+*.key
+
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Envs
+venv/
+env/
+.venv/
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+## Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+frontend/dist/
+frontend/build
+
+# Vite cache
+.vite/
+
+## IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+## GenAI / RAG Artifacts
+
+# Local vector databases
+chroma/
+.chroma/
+*.db
+
+# Embedding caches
+embeddings/
+cache/
+
+# Generated files
+generated/
+outputs/
+
+## Logs
+*.log
+
+## Large Files
+
+# Model files
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Data files
+*.csv
+*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
