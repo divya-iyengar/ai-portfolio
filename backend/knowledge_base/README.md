@@ -1,0 +1,1 @@
+This directory contains the curated knowledge base used by the AI Portfolio Assistant. Documents are written in Markdown to separate domain knowledge from model behavior. During offline ingestion, documents are chunked, embedded, and indexed into the vector database for semantic retrieval. 

@@ -1,0 +1,45 @@
+.assistant-section {
+    padding: 60px 40px;
+}
+  
+.assistant-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+  
+.assistant-section p {
+    margin-bottom: 30px;
+}
+
+.chat-window {
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.chat-input {
+    display: flex;
+    gap: 10px;
+}
+  
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+}
+  
+.chat-input button {
+    padding: 10px 20px;
+}

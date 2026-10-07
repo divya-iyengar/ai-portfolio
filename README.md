@@ -36,6 +36,20 @@ AI:
 - Phase 2: Evaluation dashboard
 - Phase 3: Agentic career assistant 
 
+## Current Status
+
+Implemented:
+- FastAPI backend
+- Offline ingestion pipeline
+- Semantic retrieval using ChromaDB
+- LLM generation pipeline
+
+Next:
+- React frontend
+- Evaluation pipeline 
+- Incremental ingestion
+- Deployment
+
 ## Getting Started
 
 How to run locally:

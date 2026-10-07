@@ -9,6 +9,15 @@ RAG allows:
 - source attribution
 - reduced hallucination risk
 
+## Why vector database?
+
+The goal is to use semantic retrieval instead of keyword search.
+
+Vector database allows:
+- user questions not matching exact wording
+- embeddings capturing semantic similarity
+- better for natural language queries
+
 ## Why FastAPI?
 
 FastAPI provides:
