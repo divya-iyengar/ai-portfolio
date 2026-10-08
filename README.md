@@ -1,5 +1,5 @@
 # ai-portfolio
-An AI-powered technical portfolio that lets you explore my experience conversationally, while showcasing a production-grade GenAI architecture
+An AI-powered technical portfolio that lets you explore my experience conversationally, while showcasing a production-grade GenAI architecture. Check out the website here: https://ai-portfolio-pearl-beta.vercel.app/. Please note: the AI chatbox may take up to a minute to respond after periods of inactivity due to the free-tier backend hosting.
 
 ## Demo 
 
