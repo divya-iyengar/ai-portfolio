@@ -5,6 +5,7 @@ from app.models.chat import ChatResponse
 client = LLMClient()
 
 def generate_response(message):
+    print("CHAT SERVICE START", flush=True)
     chunks = retriever.retrieve(message)
     prompt = prompt_builder.construct(message, chunks)
     answer = client.generate(prompt)
